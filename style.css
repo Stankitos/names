@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#ui-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #000000;
+    z-index: 10;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#instructions {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 5px;
+}
